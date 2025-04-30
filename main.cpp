@@ -79,15 +79,5 @@ int main()
 			cerr << "a polygon has area zero" << endl;
 	}
 	
-	
-	/*
-		unsigned int k = 0;
-		for (unsigned int j=1; j<vertices.size(); j++)
-			if (vertices[j-1] == vertices[j])
-				k = k+1;
-		if (k == vertices.size()-1)
-			cout << "the polygon with id = " << id << " has area zero" << endl;
-	*/
-
     return 0;
 }
